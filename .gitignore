@@ -1,0 +1,10 @@
+/node_modules
+/dist
+/build
+/public
+/views
+/package-lock.json
+/package.json
+/README.md
+/LICENSE
+/yarn.lock
