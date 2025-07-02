@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Element Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Website Element Tracker</h1>
+  </header>
+
+  <main>
+    <form id="trackingForm">
+      <label for="websiteUrl">Enter Website URL:</label>
+      <input type="url" id="websiteUrl" required />
+
+      <label for="className">Class Name to Track:</label>
+      <input type="text" id="className" required />
+
+      <button type="submit">Generate Script</button>
+    </form>
+
+    <div id="output">
+      <h2>Generated Script:</h2>
+      <pre id="scriptOutput"></pre>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
